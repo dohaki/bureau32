@@ -1,12 +1,20 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import collage from '../img/collage_with_vitrine.jpg'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <img
+      src={collage}
+      alt="collage-with-vitrine"
+      style={{
+        width: '41%',
+        height: 'auto',
+        zIndex: '-100',
+        position: 'fixed',
+        bottom: '0',
+        left: '0'
+      }}
+    />
   </div>
 )
 
