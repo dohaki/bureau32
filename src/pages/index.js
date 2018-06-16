@@ -1,5 +1,5 @@
 import React from 'react'
-import collage from './img/collage_with_vitrine.jpg'
+import collage from '../img/collage_with_vitrine.jpg'
 
 const IndexPage = () => (
   <div>
