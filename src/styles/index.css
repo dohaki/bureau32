@@ -19,6 +19,6 @@ a {
   color: black;
 }
 
-p {
+div, p {
   font-family: Arial, sans-serif
 }

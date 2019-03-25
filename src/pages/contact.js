@@ -1,10 +1,12 @@
 import React from 'react'
 
 const ContactPage = () => (
-  <div style={{
-    height: '100%',
-    display: 'flex',
-  }}>
+  <div
+    style={{
+      height: '100%',
+      display: 'flex',
+    }}
+  >
     <div
       style={{
         maxWidth: '40rem',

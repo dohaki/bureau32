@@ -1,14 +1,16 @@
 import React from 'react'
 
-import collage from '../img/collage_with_vitrine.jpg'
+import titleImg from '../img/inst.png'
 
 const IndexPage = () => (
-  <div style={{
-    height: '100%',
-    display: 'flex',
-  }}>
+  <div
+    style={{
+      height: '100%',
+      display: 'flex',
+    }}
+  >
     <img
-      src={collage}
+      src={titleImg}
       alt="collage-with-vitrine"
       style={{
         maxWidth: '40rem',

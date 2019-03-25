@@ -9,12 +9,13 @@ const Header = () => (
         paddingBottom: '0.7rem',
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'center'
+        justifyContent: 'center',
       }}
     >
-      <p style={{
-        margin: 0,
-      }}
+      <p
+        style={{
+          margin: 0,
+        }}
       >
         <Link
           to="/"
@@ -26,74 +27,84 @@ const Header = () => (
         </Link>
       </p>
     </div>
-    <div style={{
-      display: 'flex',
-      flexDirection: 'row',
-      justifyContent: 'center',
-    }}>
-        <p style={{
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+      }}
+    >
+      <p
+        style={{
           margin: 0,
-        }}>
-          <Link
-            to="/"
-            activeStyle={{
-              textDecoration: 'underline'
-            }}
-            style={{
-              textDecoration: 'none',
-            }}
-          >
-            images
-          </Link>
-        </p>
-        <p style={{
+        }}
+      >
+        <Link
+          to="/"
+          activeStyle={{
+            textDecoration: 'underline',
+          }}
+          style={{
+            textDecoration: 'none',
+          }}
+        >
+          images
+        </Link>
+      </p>
+      <p
+        style={{
           margin: 0,
-          paddingLeft: '1rem'
-        }}>
-          <Link
-            to="/about"
-            activeStyle={{
-              textDecoration: 'underline'
-            }}
-            style={{
-              textDecoration: 'none',
-            }}
-          >
-            about
-          </Link>
-        </p>
-        <p style={{
+          paddingLeft: '1rem',
+        }}
+      >
+        <Link
+          to="/about"
+          activeStyle={{
+            textDecoration: 'underline',
+          }}
+          style={{
+            textDecoration: 'none',
+          }}
+        >
+          about
+        </Link>
+      </p>
+      <p
+        style={{
           margin: 0,
-          paddingLeft: '1rem'
-        }}>
-          <Link
-            to="/contact"
-            activeStyle={{
-              textDecoration: 'underline'
-            }}
-            style={{
-              textDecoration: 'none',
-            }}
-          >
-            contact
-          </Link>
-        </p>
-        <p style={{
+          paddingLeft: '1rem',
+        }}
+      >
+        <Link
+          to="/contact"
+          activeStyle={{
+            textDecoration: 'underline',
+          }}
+          style={{
+            textDecoration: 'none',
+          }}
+        >
+          contact
+        </Link>
+      </p>
+      <p
+        style={{
           margin: 0,
-          paddingLeft: '1rem'
-        }}>
-          <Link
-            to="/imprint"
-            activeStyle={{
-              textDecoration: 'underline'
-            }}
-            style={{
-              textDecoration: 'none',
-            }}
-          >
-            imprint
-          </Link>
-        </p>
+          paddingLeft: '1rem',
+        }}
+      >
+        <Link
+          to="/imprint"
+          activeStyle={{
+            textDecoration: 'underline',
+          }}
+          style={{
+            textDecoration: 'none',
+          }}
+        >
+          imprint
+        </Link>
+      </p>
     </div>
   </div>
 )
