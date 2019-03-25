@@ -4,7 +4,6 @@ const AboutPage = () => (
   <div
     style={{
       height: '100%',
-      display: 'flex',
     }}
   >
     <div

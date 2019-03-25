@@ -6,7 +6,6 @@ const IndexPage = () => (
   <div
     style={{
       height: '100%',
-      display: 'flex',
     }}
   >
     <img

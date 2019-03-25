@@ -4,7 +4,6 @@ const ContactPage = () => (
   <div
     style={{
       height: '100%',
-      display: 'flex',
     }}
   >
     <div
