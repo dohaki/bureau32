@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const Header = () => (
-  <div>
+  <div style={{ flex: 1 }}>
     <div
       style={{
         paddingTop: '1.5rem',

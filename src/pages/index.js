@@ -3,11 +3,7 @@ import React from 'react'
 import titleImg from '../img/inst.png'
 
 const IndexPage = () => (
-  <div
-    style={{
-      height: '100%',
-    }}
-  >
+  <div style={{ display: 'flex' }}>
     <img
       src={titleImg}
       alt="collage-with-vitrine"
@@ -17,7 +13,7 @@ const IndexPage = () => (
         display: 'block',
         marginRight: 'auto',
         marginLeft: 'auto',
-        marginTop: '6.3rem',
+        marginTop: '3.3rem',
         marginBottom: 'auto',
       }}
     />
