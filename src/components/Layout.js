@@ -5,7 +5,7 @@ import Header from './Header'
 import '../styles/index.css'
 
 const Layout = ({ children, title }) => (
-  <div>
+  <div style={{ height: '100%' }}>
     <Helmet
       title={title || 'bureau32'}
       meta={[
@@ -14,9 +14,7 @@ const Layout = ({ children, title }) => (
       ]}
     />
     <Header />
-    <div>
-      {children}
-    </div>
+    {children}
   </div>
 )
 

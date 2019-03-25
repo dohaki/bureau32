@@ -1,25 +1,26 @@
 import React from 'react'
 
-import Layout from '../components/Layout'
 import collage from '../img/collage_with_vitrine.jpg'
 
 const IndexPage = () => (
-  <Layout>
-    <div>
-      <img
-        src={collage}
-        alt="collage-with-vitrine"
-        style={{
-          width: '41%',
-          height: 'auto',
-          zIndex: '-100',
-          position: 'fixed',
-          bottom: '0',
-          left: '0'
-        }}
-      />
-    </div>
-  </Layout>
+  <div style={{
+    height: '100%',
+    display: 'flex',
+  }}>
+    <img
+      src={collage}
+      alt="collage-with-vitrine"
+      style={{
+        maxWidth: '40rem',
+        height: 'auto',
+        display: 'block',
+        marginRight: 'auto',
+        marginLeft: 'auto',
+        marginTop: '6.3rem',
+        marginBottom: 'auto',
+      }}
+    />
+  </div>
 )
 
 export default IndexPage
