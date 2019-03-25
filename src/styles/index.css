@@ -22,3 +22,12 @@ a {
 div, p {
   font-family: Arial, sans-serif
 }
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}

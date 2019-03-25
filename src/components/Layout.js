@@ -5,23 +5,25 @@ import Header from './Header'
 import '../styles/index.css'
 
 const Layout = ({ children, title }) => (
-  <div style={{ height: '100%', paddingLeft: '15px', paddingRight: '15px' }}>
-    <Helmet
-      title={title || 'bureau32'}
-      meta={[
-        {
-          name: 'description',
-          content: 'Office for architectural visualization.',
-        },
-        {
-          name: 'keywords',
-          content:
-            'architecture, visualization, berlin, rendering, 3d, sebastian, georgescu, bureau32, architektur, visualisierung',
-        },
-      ]}
-    />
-    <Header />
-    {children}
+  <div>
+    <div id='wrapper'>
+      <Helmet
+        title={title || 'bureau32'}
+        meta={[
+          {
+            name: 'description',
+            content: 'Office for architectural visualization.',
+          },
+          {
+            name: 'keywords',
+            content:
+              'architecture, visualization, berlin, rendering, 3d, sebastian, georgescu, bureau32, architektur, visualisierung',
+          },
+        ]}
+      />
+      <Header />
+      {children}
+    </div>
   </div>
 )
 
