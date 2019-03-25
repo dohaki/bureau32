@@ -13,7 +13,11 @@ const Layout = ({ children, title }) => (
           name: 'description',
           content: 'Office for architectural visualization.',
         },
-        { name: 'keywords', content: 'architecture, sebastian, georgescu' },
+        {
+          name: 'keywords',
+          content:
+            'architecture, visualization, berlin, rendering, 3d, sebastian, georgescu, bureau32, architektur, visualisierung',
+        },
       ]}
     />
     <Header />
